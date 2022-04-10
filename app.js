@@ -15,7 +15,7 @@ app.use(express.json())
 app.use(cors());
 
 
-const CONNECTION_URL = "mongodb+srv://ace:ace@cluster0.a5ivo.mongodb.net/Monger?retryWrites=true&w=majority"
+const CONNECTION_URL = "mongodb+srv://ace:password@cluster0.a5ivo.mongodb.net/Monger?retryWrites=true&w=majority"
 
 // Database connection
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
